@@ -1,0 +1,12 @@
+# test whether the no is positive, negative or equal to zero
+
+num = int(input("enter the number : "))
+
+#using decision control statements 
+
+if (num==0):
+    print("the value is equal to zero")
+elif(num>0):
+    print("the number is positive")
+else:
+    print("the number is negative")
